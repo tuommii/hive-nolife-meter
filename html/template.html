@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{.PageTitle}}</title>
+</head>
+<body>
+	<h1>{{.PageTitle}}</h1>
+	<ul>
+		{{range .UserList}}
+		<li>
+			{{if $.ShowUsernames}}
+			<span>{{.Name}}</span>
+			{{end}}
+			<span>{{.LevelString}}</span>
+		</li>
+		{{end}}
+	</ul>
+	<p>{{.Time}}</p>
+</body>
+</html>
