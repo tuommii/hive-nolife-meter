@@ -7,7 +7,7 @@ webpage. This app doesn't utilize goroutines because i don't know API limits. It
 ## Screenshot
 
 UI is heavily inspired by UNIX =)
-![Test .PNG](https://github.com/tuommii/hive-nolife-meter/blob/master/screenshot..png)
+![Screenshot](https://github.com/tuommii/hive-nolife-meter/blob/master/screenshot.png "Screenshot")
 
 ## Setup
 
