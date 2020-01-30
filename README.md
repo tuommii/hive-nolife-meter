@@ -17,6 +17,3 @@ UI is heavily inspired by UNIX =)
 * Add users to `users.json`
 * Edit `Makefile`
 * run `run.sh`
-
-## Test
-* In project root: `make test`
