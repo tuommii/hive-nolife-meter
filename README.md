@@ -1,8 +1,8 @@
 # Hive-Nolife-Meter
 
 In Hive you can't see other people progress (levels) otherwise than going to
-their profilepage. So i made app that crawls needed data and then create's a static
-webpage. This app doesn't utilize goroutines because i don't know API limits.
+their profile page or via API. So i made app for learning purposes, that crawl's data and then creates a static
+webpage. This app doesn't utilize goroutines because of the API limits.
 
 ## Screenshot
 
